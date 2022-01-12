@@ -1,0 +1,62 @@
+@media (max-width: 1199px) {
+     .main-container .image-container img {
+          max-width: 374px;
+          height: auto;
+          background-color: #282a3a;
+          border-radius: 50%;
+          outline: 4px dashed white;
+          outline-offset: 10px;
+     }
+     .about-life-image-container .experience {
+          padding: 15px 20px;
+          bottom: -15px;
+          left: -15px;
+     }
+     .experience-top div {
+          height: 22px;
+     }
+     .about-life-content>.btn-gruop>button:first-child {
+          margin-right: 0px;
+     }
+     .button-theme-style {
+          width: 185px;
+     }
+     .about-life-content>.btn-gruop {
+          margin-top: 40px;
+     }
+     .about-life-image-container, .about-life-content {
+          margin-top: 100px;
+          margin-bottom: 100px;
+     }
+     .reasons-content p {
+          margin: 20px 0 15px 0;
+     }
+     .reasons-content {
+          margin: 63px 0;
+     }
+     .button-reason {
+          padding: 5px 0;
+          margin: 10px 0;
+     }
+     .reasons .image-container {
+          margin: 100px 0;
+     }
+     .testimonials .sp-head-content {
+          margin-bottom: 20px;
+     }
+     .contact-group>p {
+          margin-top: 55px;
+      }
+}
+
+@media (max-width: 991px) {
+     
+}
+
+@media (max-width: 767px) {
+     
+}
+
+@media (max-width: 575px) {
+     
+}
