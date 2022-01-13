@@ -49,7 +49,7 @@
      }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.5px) {
      .navbar-nav>li>a:link {
           padding: 15px 10px;
           font-size: 13px;
@@ -95,7 +95,7 @@
           margin-bottom: 35px;
      }
      .service-box .text-content p {
-          font-size: 16px;
+          font-size: 17px;
      }
      .reasons .image-container {
           text-align: center;
@@ -124,8 +124,12 @@
           margin-bottom: 30px;
           border-bottom: 1px solid white;
      }
-     .navbar-header {
-          text-align: center;
+     .navbar-toggle {
+          border-color: #ddd;
+          margin-top: 30px;
+     }
+     .navbar-toggle .icon-bar {
+          background-color: #888;
      }
      .navbar-brand {
           float: none;
@@ -134,14 +138,11 @@
      .navbar-brand>img {
           display: inline-block;
      }
-     .collapse {
-          display: block;  
-     }
      .nav>li {
           text-align: center;
      }
      .service-box .text-content {
-          width: 150px;
+          width: 105px;
      }
      .portfolio-image-overlay-container .overlay-content {
           padding: 50px;
