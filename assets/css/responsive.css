@@ -46,17 +46,248 @@
      }
      .contact-group>p {
           margin-top: 55px;
-      }
+     }
 }
 
 @media (max-width: 991px) {
-     
+     .navbar-nav>li>a:link {
+          padding: 15px 10px;
+          font-size: 13px;
+     }
+     .navbar-nav>li>button {
+          padding: 15px;
+          font-size: 13px;
+     }
+     .main-section-content {
+          padding: 50px 0 100px 0;
+     }
+     .main-container .image-container {
+         text-align: center;
+     }
+     .about-life-image-container {
+          text-align: center;
+     }
+     .about-life-image-container img {
+          width: 500px;
+          height: auto;
+          filter: grayscale(100%);
+     }
+     .about-life-image-container .experience {
+          bottom: -30px;
+          left: 70px;
+     }
+     .about-life-content>.btn-gruop {
+          text-align: center;
+     }
+     .about-life-content>.btn-gruop>button:first-child {
+          margin-right: 15px;
+     }
+     .sp-head-content h6 {
+          width: 100%; 
+          margin: 0;
+     }
+     .sp-head-content {
+          text-align: center;
+          margin-top: 50px;
+          margin-bottom: 50px;
+     }
+     .service-box {
+          margin-bottom: 35px;
+     }
+     .service-box .text-content p {
+          font-size: 16px;
+     }
+     .reasons .image-container {
+          text-align: center;
+     }
+     .reasons .image-container img {
+          max-width: 400px;
+     }
+     .portfolio-image-container {
+          margin-bottom: 35px;
+     }
+     .testimonial-image-content {
+          text-align: center;
+          width: 100%;
+          margin-bottom: 60px;
+     }
+     .input-margin-top {
+          margin-top: 0;
+     }
+     .contact-form h1 {
+          margin-bottom: 20px;
+     }
 }
 
 @media (max-width: 767px) {
-     
+     .main-nav {
+          margin-bottom: 30px;
+          border-bottom: 1px solid white;
+     }
+     .navbar-header {
+          text-align: center;
+     }
+     .navbar-brand {
+          float: none;
+          display: inline-block;
+     }
+     .navbar-brand>img {
+          display: inline-block;
+     }
+     .collapse {
+          display: block;  
+     }
+     .nav>li {
+          text-align: center;
+     }
+     .service-box .text-content {
+          width: 150px;
+     }
+     .contact-form {
+          margin-top: 30px;
+     }
+     .contact-form h1 {
+          margin: 0;
+          border-top: 1px solid white;
+          padding: 30px 0;
+     }
+     .input-margin-top {
+          margin-top: 0;
+     }
 }
-
+@media (max-width: 700px) {
+     .about-life-image-container .experience {
+          bottom: -35px;
+          left: 0px;
+     }
+}
 @media (max-width: 575px) {
-     
+     .btn-theme {
+          font-size: 15px;
+     }   
+     .button-theme-style {
+          width: 160px;
+          padding: 20px 0;
+     }
+     .btn-theme-wb {
+          font-size: 15px;
+     }
+     .sp-head-content {
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+     }
+     .btn-view {
+          margin-bottom: 30px;
+     }
+     .sp-head-content h1 {
+          font-size: 30px;
+     }
+     .sp-head-content h6 {
+          font-size: 14px;
+          line-height: 18px;
+     }
+     .navbar-nav>li>button {
+          margin-top: 10px;
+     }
+     .main-container .image-container img {
+          max-width: 270px;
+     }
+     .main-container .image-container {
+          margin-bottom: 60px;
+     }
+     .main-section-content {
+          padding: 50px 0 60px 0;
+     }
+     .main-section-content h1 {
+          margin: 40px 0;
+     }
+     .main-section-content h5 {
+          margin: -20px 0 0 0;
+     }
+     .main-section-content .btn-gruop>button:first-of-type {
+          margin-right: 20px;
+     }
+     .about-life-image-container img {
+          width: 370px;
+     }
+     .about-life-image-container, .about-life-content {
+          margin-top: 60px;
+          margin-bottom: 60px;
+     }
+     .about-life-content h3 {
+          margin-bottom: 15px;
+     }
+     .about-life-content h5 {
+          line-height: 18px;
+
+     }
+     .about-life-image-container .experience {
+          bottom: -30px;
+          left: 10px;
+     }
+     .service-box .text-content p {
+          font-size: 12px;
+     }
+     .service-box .text-content {
+          width: 100px;
+          padding: 35px 15px;
+     }
+     .service-box .arrow-icon {
+          padding: 25.5px 25px;
+     }
+     .reasons-content {
+          margin: 0;
+     }
+     .reasons .image-container {
+          margin: 50px 0;
+     }
+     .reasons .image-container img {
+          max-width: 300px;
+     }
+     .reasons-content h3 {
+          font-size: 30px;
+     }
+     .reasons-content p {
+          margin: 5px 0 30px 0;
+          line-height: 18px;
+     }
+     .button-reason {
+          padding: 5px 0;
+          margin: 0 0 30px 0;
+     }
+     .testimonial-image-content p {
+          font-weight: 400;
+          line-height: 18px;
+     }
+     .blog-container {
+          margin-bottom: 30px;
+     }  
+     .contact-content>p {
+          font-size: 14px;
+          line-height: 18px;
+          margin-top: 5px;
+     }  
+     .contact-item {
+          margin: 15px 0;
+     }
+     .contact-content, .contact-form {
+          margin-top: 30px;
+     }
+     .contact-content h1 {
+          font-size: 30px;
+     }
+     .contact-details>p:first-child {
+          font-size: 14px;
+     }
+     .contact-details>p:last-child {
+          font-size: 18px;
+     }
+     .contact-group>p {
+          margin-top: 20px;
+     }
+     .contact-form h1 {
+          font-size: 30px;
+          padding: 20px 0;
+     }
 }
