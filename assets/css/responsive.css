@@ -226,15 +226,27 @@
           bottom: -30px;
           left: 10px;
      }
+     .service-box {
+          text-align: center;
+          padding: 20px 20px 0 20px;
+     }
+     .service-box>.icon-container {
+          height: 75px;
+          width: 75px;
+      }
      .service-box .text-content p {
           font-size: 12px;
      }
      .service-box .text-content {
-          width: 100px;
-          padding: 35px 15px;
+          position: relative;
+          display: block;
+          width: 100%;
+          padding: 5px 0;
      }
      .service-box .arrow-icon {
-          padding: 25.5px 25px;
+          display: block;
+          position: relative;
+          padding: 0;;
      }
      .reasons-content {
           margin: 0;
