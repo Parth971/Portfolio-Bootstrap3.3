@@ -49,7 +49,7 @@
      }
 }
 
-@media (max-width: 991.5px) {
+@media (max-width: 991px) {
      .navbar-nav>li>a:link {
           padding: 15px 10px;
           font-size: 13px;
