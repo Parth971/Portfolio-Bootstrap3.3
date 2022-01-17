@@ -28,6 +28,12 @@
           margin-top: 100px;
           margin-bottom: 100px;
      }
+     .portfolio-image-overlay-container .overlay-content {
+          padding: 55px 40px;
+     }
+     .testimonial-image-content {
+          width: 100%;
+      }
      .reasons-content p {
           margin: 20px 0 15px 0;
      }
@@ -60,6 +66,7 @@
      }
      .main-section-content {
           padding: 50px 0 100px 0;
+          text-align: center;
      }
      .main-container .image-container {
          text-align: center;
@@ -122,7 +129,6 @@
 @media (max-width: 767px) {
      .main-nav {
           margin-bottom: 30px;
-          border-bottom: 1px solid white;
      }
      .navbar-toggle {
           border-color: #ddd;
@@ -141,18 +147,35 @@
      .nav>li {
           text-align: center;
      }
+     .service-box {
+          padding: 15px 20px;
+     }
      .service-box .text-content {
-          width: 105px;
+          padding: 20px 15px;
+          width: 145px;
+     }
+     .service-box .text-content p{
+          font-size: 14px;
+     }
+     .service-box>.icon-container {
+          height: 60px;
+          width: 60px;
+     }
+     .service-box .arrow-icon {
+          padding: 12px 25px;
      }
      .portfolio-image-overlay-container .overlay-content {
-          padding: 50px;
+          padding: 46px 40px;
      }
      .portfolio-image-overlay-container .overlay-content p:nth-child(1) {
+          font-size: 20px;
+     }
+     .portfolio-image-overlay-container .overlay-content p:nth-child(2) {
           font-size: 18px;
      }
      .portfolio-image-overlay-container .overlay-content p:nth-child(3) {
           margin-top: 15px;
-          font-size: 10px;
+          font-size: 12px;
           line-height: 15px;
      }
      .contact-form {
